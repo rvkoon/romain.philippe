@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <Typography variant="h1" sx={{ color: "primary", fontFamily: "Poppins" }}>
+    <Typography variant="h1" sx={{ color: "primary.main" }}>
       Home
     </Typography>
   );
