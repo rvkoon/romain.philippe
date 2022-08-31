@@ -9,9 +9,9 @@ const THEME = createTheme({
   components: {
     MuiCssBaseline: {
       styleOverrides: `
-      body {
-        font-family: "Poppins"
-      }
+        body {
+          font-family: "Poppins";
+        }
       `,
     },
   },
