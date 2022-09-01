@@ -1,7 +1,7 @@
 import { Header, MobileMenu } from "@Ui";
 import type { NextPage } from "next";
 
-const Home: NextPage = () => {
+const Lab: NextPage = () => {
   return (
     <>
       <Header />
@@ -10,4 +10,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Lab;

@@ -6,6 +6,7 @@ const HeaderStyled = styled(Box)(({ theme: { spacing } }) => ({
   height: spacing(10),
   paddingInline: spacing(2),
   display: "flex",
+  justifyContent: "space-between",
   alignItems: "center",
 }));
 
