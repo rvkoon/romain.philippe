@@ -1,11 +1,12 @@
-import { Header, MobileMenu } from "@Ui";
+import { Header } from "@Ui";
+import { MobileNavigation } from "@Navigation";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
     <>
       <Header />
-      <MobileMenu />
+      <MobileNavigation />
     </>
   );
 };

@@ -16,8 +16,8 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@Home": ["modules/home"],
-      "@Ui": ["modules/ui"]
+      "@Ui": ["modules/ui"],
+      "@Navigation": ["modules/navigation"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

@@ -5,7 +5,7 @@ const COLORS = {
   },
   custom: {
     background: {
-      light: "#F0F0F0",
+      light: "#F5F5F5",
     },
     text: {
       onLight: "#4C4857",
