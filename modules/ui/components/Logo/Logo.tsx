@@ -1,10 +1,10 @@
 import { styled } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
-import { ReactElement } from "react";
 
 const LogoStyled = styled(Typography)(({ theme: { spacing } }) => ({
   fontWeight: 900,
-  fontSize: spacing(2.5),
+  fontSize: spacing(2),
+  fontFamily: "Poppins",
 }));
 
 const DotStyled = styled("span")(({ theme: { spacing, palette } }) => ({
@@ -17,7 +17,7 @@ const DotStyled = styled("span")(({ theme: { spacing, palette } }) => ({
   },
 }));
 
-export default function Logo(): ReactElement {
+export default function Logo(): JSX.Element {
   return (
     <LogoStyled>
       ROMAIN

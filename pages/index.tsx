@@ -1,14 +1,13 @@
 import { Header } from "@Ui";
+import { HomeHero } from "@Home";
 import { MobileNavigation } from "@Navigation";
-import type { NextPage } from "next";
 
-const Home: NextPage = () => {
+export default function Home(): JSX.Element {
   return (
     <>
       <Header />
       <MobileNavigation />
+      <HomeHero />
     </>
   );
-};
-
-export default Home;
+}
