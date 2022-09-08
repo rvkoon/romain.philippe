@@ -1,5 +1,5 @@
 const TYPOGRAPHY = {
-  fontFamily: "Poppins",
+  fontFamily: ["Poppins", "SpaceGrotesk"],
 };
 
 export default TYPOGRAPHY;

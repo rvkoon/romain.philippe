@@ -9,7 +9,7 @@ const NAVIGATION_LINKS: NavigationLink[] = [
   { href: ROUTES.HOME, name: "Home", icon: HomeIcon },
   { href: ROUTES.ABOUT, name: "About", icon: AvatarIcon },
   { href: ROUTES.BLOG, name: "Blog", icon: ArticleIcon },
-  { href: ROUTES.LAB, name: "Lab", icon: LabIcon },
+  { href: ROUTES.LAB, name: "The Lab", icon: LabIcon },
 ];
 
 export default NAVIGATION_LINKS;
